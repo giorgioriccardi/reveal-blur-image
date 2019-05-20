@@ -1,4 +1,4 @@
-/**  code by webdevtrick ( https://webdevtrick.com ) **/
+/**  code by ssws ( https://ssws.com ) **/
 $('.pic').mousemove(function (event) {
     event.preventDefault();
     var upX = event.clientX;
