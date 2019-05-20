@@ -8,3 +8,4 @@ _This is just a prototype for now_
 - ~~Update jquery~~
 - Check SVG code
 - ~~Switch jquery to ES6~~
+- Make it WordPress friendly
