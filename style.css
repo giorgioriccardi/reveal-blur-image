@@ -1,0 +1,22 @@
+/** code by webdevtrick ( https://webdevtrick.com ) **/
+
+body {
+    margin: 0;
+}
+
+.pic {
+    text-align: center;
+    position: relative;
+    height: 600px;
+}
+
+.blur {
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
