@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blur Image Reveal Part | ssws.com</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>ES6 Blur Image Reveal | ssws.com</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <link href="style.css" rel="stylesheet">
 </head>
 
@@ -20,7 +20,7 @@
                 <fegaussianblur stdDeviation="2" />
             </filter>
             <mask id="mask1">
-                <circle cx="-50%" cy="-50%" r="80" fill="white" filter="url(#filter2)" />
+                <circle id="circle" cx="-50%" cy="-50%" r="80" fill="white" filter="url(#filter2)" />
             </mask>
             <image
                 href="https://www.seatoskywebsolutions.ca/wordpress/wp-content/uploads/2015/06/wordpress-code-php.jpg"
