@@ -3,14 +3,16 @@
 // ES6
 
 document.querySelector(".pic").addEventListener("mousemove", function (event) {
+    console.log("event start");
     event.preventDefault();
     let upX = event.clientX;
     let upY = event.clientY;
-    // let mask = document.getElementById("#mask1");
     let circle = document.getElementById("circle");
     circle.setAttribute("cy", (upY - 5) + 'px');
     circle.setAttribute("cx", (upX) + 'px');
+    console.log("event end");
 });
+console.log("function end");
 
 // Original jQuery
 
