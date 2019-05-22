@@ -6,6 +6,7 @@ _This is just a prototype for now_
 ### Todo
 
 - ~~Update jquery~~
-- Check SVG code
+- ~~Check SVG code~~
 - ~~Switch jquery to ES6~~
+- Make it usable with .png other than .svg
 - Make it WordPress friendly
